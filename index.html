@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app-1200px.css">
+    <link rel="stylesheet" href="app-1440px.css">
+    <link rel="stylesheet" href="app-tablets.css">
+    <link rel="stylesheet" href="app-mobile.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/904be03d2a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather App</title>
+
+    <meta name="title" content="Weather APP | MPelalle" />
+    <meta name="description" content="App sobre el clima, entrá busca tu ciudad y mira las condiciones climaticas!" />
+    
+        <meta name="Google" content="notranslate">
+        <meta property="og:type" content="website">  
+    <meta property="og:url" content="https://mpelalle.github.io/weather-app/">  
+    <meta property="og:title" content="Weather APP | MPelalle">  
+    <meta property="og:description" content="App sobre el clima, entrá busca tu ciudad y mira las condiciones climaticas!">  
+    <meta property="og:image" content="./multimedia/meta.png">
+    
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <i class="fa-solid fa-cloud"><h1 class="nav__title">WeatherApp</h1></i>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="search-box">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <input type="text" placeholder="Enter your location" id="input">
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        
+        <div class="not-found">
+            <img src="./multimedia/error-404.png" alt="" class="not-found-img">
+            <p class="error-text">Location not found :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="" alt="" class="condition-image">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="text">
+                    <span class="sps"></span>
+                    <p class="condiciones humidity">Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span class="sps"></span>
+                    <p class="condiciones wind">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <h1 class="footer">App Test<i class="fa-solid fa-vial-circle-check"></i>, para complementar todo el conocimiento de: <i class="fa-brands fa-html5"></i>, <i class="fa-brands fa-css3-alt"></i> & <i class="fa-brands fa-square-js"></i></h1>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>

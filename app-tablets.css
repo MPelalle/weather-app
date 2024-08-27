@@ -1,0 +1,6 @@
+@media screen and (max-width: 800px) {
+    .main {
+        height: 90vh;
+        overflow: hidden;
+    }
+}

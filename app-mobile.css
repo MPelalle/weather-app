@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+    .main {
+        height: 84.7vh;
+    }
+    .nav__about-me {
+        display: none;
+    }
+    .nav {
+        justify-content: center;
+    }
+
+    .container {
+        width: 350px;
+    }
+}
